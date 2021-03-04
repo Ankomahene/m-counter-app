@@ -1,0 +1,60 @@
+/* Global elements */
+button, input {
+    outline: none;
+    border: none;
+    background-color: transparent;
+}
+
+.App {
+    background-color: #383f4b;
+    min-height: 100vh;
+}
+
+.main-container {
+    display: flex;
+    flex-wrap: wrap;
+    width: 90%;
+    margin: auto;
+}
+
+.CounterGroup {
+    width: 370px;
+}
+
+.label-section {
+    width: 170;
+}
+
+.options-section {
+    width: 100px;
+}
+
+.options-icon {
+    cursor: pointer;
+}
+
+.Counter, .Counter button {
+    border-radius: 2px;
+}
+
+
+.Counter {
+    background-color: #fff;
+    width: 270px;
+    align-items: center;
+    padding: 0.5rem;
+    margin-bottom: 5px;
+    border-radius: 2px;
+}
+
+.Counter button {
+    width: 40px;
+    height: 40px;
+    font-size: 2rem;
+    color: #305aa3;
+    font-weight: 100;
+}
+
+.value {
+    font-size: 2rem;
+}
